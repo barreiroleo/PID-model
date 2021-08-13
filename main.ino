@@ -11,6 +11,7 @@ void setup() {
 }
 
 void loop() {
+    updateTemp();
     updatePID();
     delay(100);
         
