@@ -5,7 +5,7 @@
 class MyPID {
 private:
     uint8_t outputMin, outputMax;
-    float lastError;
+    float lastError, cumError;
 public:
     float kp, ki, kd;
     float input; uint8_t setpoint, output;

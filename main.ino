@@ -8,7 +8,7 @@ const uint8_t PIN_OUTPUT  = 11;
 #include "src/LIVE_SERIAL.h"
 #include "src/myPID/myPID.h"
 
-MyPID myPID(5.0, 0.003, 0.0);
+MyPID myPID(5.0, 0.0003, 0.0);
 
 void setup() {
     Serial.begin(9600);
